@@ -31,7 +31,7 @@ namespace LabWork2
             int j = 0;
             for (int i = 0; i < array.Value.Length; i++)
             {
-                if (array[i] < 0) continue;
+                if (array[i] < 0) continue; // hi
                 else
                 {
                     newArray[j] = array[i];
